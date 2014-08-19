@@ -1,0 +1,12 @@
+{
+  "run_list": [
+  "recipe[git]",
+  "recipe[mysql::server]",
+  "recipe[apache2]",
+  "recipe[python]",
+  "recipe[django]"
+  ],
+  "automatic": {
+    "ipaddress": "54.64.39.152"
+  }
+}
